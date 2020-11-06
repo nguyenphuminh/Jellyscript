@@ -8,7 +8,7 @@
 </div>
 
 ## What is Jellyscript ?
-Jellyscript is an esoteric programming language that will screw with your life since it only has 10 commands and can barely even do anything. Jellyscript runs on your browser using HTML and the Jellyscript's interpreter written in Javascript.
+Jellyscript is an esoteric programming language that will screw with your life since it only has 10 commands and can barely even do anything. Jellyscript runs on your browser using HTML and the embedable Jellyscript's interpreter written in Javascript.
 
 ## Usage
 
