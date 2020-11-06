@@ -56,6 +56,25 @@ Jellyscript use an array with 100000 cells, every cells starts with the value of
 ### Notes 
 Any other characters are referred as comments, which will be ignored.
 
+## Example
+Hello World:
+
+    llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    _JlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+    JllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllY
+
+## Command line interface
+Shows current version:
+
+    fls --version
+
 ## Copyrights and Licenses
 This language is licensed under the MIT License 
 
