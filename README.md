@@ -10,13 +10,33 @@
 ## What is Jellyscript ?
 Jellyscript is an esoteric programming language that will screw with your life since it only has 10 commands and can barely even do anything. Jellyscript runs on your browser using HTML and the Jellyscript's interpreter written in Javascript.
 
-## Usage 
+## Usage
+
+### Install
+You can install Jellyscript with:
+
+Github:
+
+    git clone https://github.com/nguyenphuminh/Jellyscript.git
+
+NPM:
+
+    npm install --save-dev jelscript
+
+### Setup
 Add this to your .html file:
 	
-	<script type="text/jellyscript">
-		This is where you write your codes
-	</script>
-	<script src="jellyscript.min.js"></script>
+    <script type="text/jellyscript">
+      This is where you write your codes
+    </script>
+    <script src="jellyscript.min.js"></script>
+
+Or:
+
+    <script type="text/jellyscript">
+      This is where you write your codes
+    </script>
+    <script src="https://unpkg.com/jelscript@0.1.0/jellyscript.min.js"></script>
 
 ## Syntax
 Jellyscript use an array with 100000 cells. Your codes will interact with each cells to work.
