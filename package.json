@@ -1,0 +1,32 @@
+{
+  "name": "jelscript",
+  "version": "0.1.0",
+  "description": "An esoteric scripting/programming language (esolang) that's dumb",
+  "main": "jellyscript.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenphuminh/jellyscript.git"
+  },
+  "keywords": [
+    "esoteric-language",
+    "esolang",
+    "esoteric-programming-language",
+    "programming-language",
+    "scripting-language",
+    "javascript",
+    "interpreter",
+    "ascii"
+  ],
+  "author": "Nguyen Phu Minh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyenphuminh/jellyscript/issues"
+  },
+  "homepage": "https://github.com/nguyenphuminh/jellyscript#readme"
+}

@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/logo.png" />
   <br/>
-  <b>A scripting language that f*ck with you</b>
+  <b>A scripting language that f*cks with you</b>
   <br/>
   <br/>
   <a href="https://github.com/nguyenphuminh/Jellyscript/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-orange.svg"/></a>
