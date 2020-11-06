@@ -39,7 +39,7 @@ Or:
     <script src="https://unpkg.com/jelscript@0.1.0/jellyscript.min.js"></script>
 
 ## Syntax
-Jellyscript use an array with 100000 cells. Your codes will interact with each cells to work.
+Jellyscript use an array with 100000 cells, every cells starts with the value of 0. Your codes will interact with each cells to work.
 
 ### Commands
 <li>J -> move to the next cell.</li>
