@@ -3,7 +3,7 @@ if (document.querySelector(`script[type="text/jellyscript"]`) != null){
 	code = code.split("");
 	let arr=[];
 	let i=0;
-	for (k=0;k<29999;k++){
+	for (k=0;k<99999;k++){
 		arr[k]=0;
 	}
 	for (j=0;j<code.length;j++){
@@ -24,7 +24,7 @@ if (document.querySelector(`script[type="text/jellyscript"]`) != null){
 				document.write(String.fromCharCode(arr[i]));
 				break;
 			case "j":
-				arr[i] = prompt();
+				arr[i]=prompt();
 				break;
 			case "e":
 				document.write('Hello, World!');
@@ -33,10 +33,16 @@ if (document.querySelector(`script[type="text/jellyscript"]`) != null){
 				document.write("I love Jelly!");
 				break;
 			case "_":
-				document.write(" ");
+				document.write("&nbsp");
 				break;
 			case "-":
 				document.write("<br/>");
+				break;
+			case "S":
+				document.write(arr[i]);
+				break;
+			case "A":
+				document.write("<i>Java</i>");
 		}
 	}
 }

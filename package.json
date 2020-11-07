@@ -1,6 +1,6 @@
 {
   "name": "jelscript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An esoteric scripting/programming language (esolang) that's dumb",
   "main": "jellyscript.min.js",
   "directories": {

@@ -8,7 +8,7 @@
 </div>
 
 ## What is Jellyscript ?
-Jellyscript is an esoteric programming language that will screw with your life since it only has 10 commands and can barely even do anything. Jellyscript runs on your browser using HTML and the embedable Jellyscript's interpreter written in Javascript.
+Jellyscript is an esoteric programming language that will screw with your life since it only has 10 commands and can barely even do anything. Jellyscript runs on your browser using HTML and the embeddable Jellyscript's interpreter written in Javascript.
 
 ## Usage
 
@@ -42,16 +42,17 @@ Or:
 Jellyscript use an array with 100000 cells, every cells starts with the value of 0. Your codes will interact with each cells to work.
 
 ### Commands
-<li>J -> move to the next cell.</li>
-<li>E -> move to the previous cell.</li>
-<li>l -> increment the value of the cell by 1.</li>
-<li>L -> increment the value of the cell by -1.</li>
-<li>Y -> outputs the ASCII value of the current cell.</li>
-<li>j -> inputs the value of the current cell.</li>
-<li>e -> outputs "Hello, World!".</li>
-<li>y -> outputs "I love Jelly!".</li>
-<li>_ -> space.</li>
-<li>- -> new line.</li>
+<li>J <b>-></b> move to the next cell.</li>
+<li>E <b>-></b> move to the previous cell.</li>
+<li>l <b>-></b> increment the value of the cell by 1.</li>
+<li>L <b>-></b> increment the value of the cell by -1.</li>
+<li>Y <b>-></b> outputs the ASCII value of the current cell.</li>
+<li>j <b>-></b> inputs the value of the current cell.</li>
+<li>e <b>-></b> outputs "Hello, World!".</li>
+<li>y <b>-></b> outputs "I love Jelly!".</li>
+<li>_ <b>-></b> space.</li>
+<li>- <b>-></b> new line.</li>
+<li>S <b>-></b> outputs <i>Java</i>.</li>
 
 ### Notes 
 Any other characters are referred as comments, which will be ignored.
