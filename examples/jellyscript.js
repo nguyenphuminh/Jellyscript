@@ -1,13 +1,8 @@
 if (document.querySelector(`script[type="text/jellyscript"]`) != null){
-	let code = document.querySelector(`script[type="text/jellyscript"]`).innerHTML;
-	code = code.split("");
-	let arr=[];
-	let i=0;
-	for (k=0;k<99999;k++){
-		arr[k]=0;
-	}
-	for (j=0;j<code.length;j++){
-		switch (code[j]) {
+	let code = document.querySelector(`script[type="text/jellyscript"]`).innerHTML.split(""), arr=[], i=0;
+	for (k=0;k<99999;k++) arr[k]=0;
+	code.forEach(item => {
+		switch (item) {
 			case "J":
 				i++;
 				break;
@@ -44,5 +39,5 @@ if (document.querySelector(`script[type="text/jellyscript"]`) != null){
 			case "A":
 				document.write("<i>Java</i>");
 		}
-	}
+	})
 }
