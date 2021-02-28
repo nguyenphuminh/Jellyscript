@@ -38,6 +38,9 @@ if (document.querySelector(`script[type="text/jellyscript"]`) != null){
 				break;
 			case "A":
 				document.write("<i>Java</i>");
+				break;
+			case "a":
+				document.write(code.join(""))
 		}
 	})
 }
